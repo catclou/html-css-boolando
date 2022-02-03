@@ -18,7 +18,7 @@
 }
 
 .photo {
-    position:relative
+    position: relative;
 }
 
 img {
@@ -36,11 +36,14 @@ img {
 .discount {
     background: red;
     left: 0;
+    z-index: 3;
 }
 
 .green {
     background: green;
     left: 13%;
+    position: absolute;
+    z-index: 3;
 }
 
 .heart {
@@ -49,6 +52,7 @@ img {
     top: 3%;
     right: 0;
     padding: 3px 5px 3px 6px;
+    z-index: 3;
 }
 
 .brand {
@@ -74,3 +78,19 @@ img {
 .price, .old-price {
     font-size: 0.6rem;
 }
+
+
+
+#img1-b {
+    
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+#img1-b:hover {
+    display: none;
+}
+
+
+
