@@ -1,0 +1,76 @@
+/* reset starts here */
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+/* reset ends here */
+
+.maxi-wrapper {
+    margin: auto;
+    border: 1px solid red;
+    width: 900px;
+}
+
+.card {
+    display: inline-block;
+}
+
+.photo {
+    position:relative
+}
+
+img {
+    height: 300px;
+}
+
+.discount, .green {
+    color: white;
+    font-size: 0.5rem;
+    position: absolute;
+    bottom: 5%;
+    padding: 3px;
+}
+
+.discount {
+    background: red;
+    left: 0;
+}
+
+.green {
+    background: green;
+    left: 13%;
+}
+
+.heart {
+    background: white;
+    position: absolute;
+    top: 3%;
+    right: 0;
+    padding: 3px 5px 3px 6px;
+}
+
+.brand {
+    font-size: 0.6rem;
+    color: grey;
+    display: block;
+}
+
+.item-name {
+    display: block;
+    font-size: 0.7rem;
+}
+
+.price {
+    color: red;
+}
+
+.old-price {
+    color: grey;
+    text-decoration: line-through;
+}
+
+.price, .old-price {
+    font-size: 0.6rem;
+}
