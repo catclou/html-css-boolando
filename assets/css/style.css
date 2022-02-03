@@ -9,8 +9,7 @@
 
 .maxi-wrapper {
     margin: auto;
-    border: 1px solid red;
-    width: 900px;
+    width: 610px;
 }
 
 .card {
@@ -22,7 +21,7 @@
 }
 
 img {
-    height: 300px;
+    width: 200px;
 }
 
 .discount, .green {
@@ -76,10 +75,8 @@ img {
 }
 
 .price, .old-price {
-    font-size: 0.6rem;
+    font-size: 0.5rem;
 }
-
-
 
 #img1-b {
     
